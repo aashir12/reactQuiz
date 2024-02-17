@@ -1,6 +1,6 @@
 import '../App.css';
 import Name from './name';
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import {Routes,Route } from 'react-router-dom';
 import Quiz from './quiz';
 import Result from './result';
 import { useState } from 'react';
