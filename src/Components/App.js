@@ -13,13 +13,13 @@ function App() {
  
    <>
 
-<Router>
+
   <Routes>
     <Route path='/' element={<Name setName={setName}/>}/>
     <Route path='/quiz' element={<Quiz totalFun={totalFun}/> }/>
     <Route path='/result' element={<Result name={name} total={total}/> }/>
   </Routes>
-</Router>
+
    </>
   );
 }
